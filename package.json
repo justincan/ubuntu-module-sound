@@ -1,0 +1,24 @@
+{
+  "name": "ubuntu-module-sound",
+  "version": "0.0.1",
+  "description": "Audio playback for React Native Ubuntu",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Justin McPherson <justin.mcpherson@canonical.com>",
+  "license": "BSD-3-Clause",
+  "keywords": [
+    "react-native",
+    "ubuntu",
+    "audio",
+    "sound"
+  ],
+  "peerDependencies": {
+    "react-native": ">=0.26.0"
+  },
+  "_ubuntu": {
+    "build": "./build.sh",
+    "plugin": "libsoundmanager.so"
+  }
+}
