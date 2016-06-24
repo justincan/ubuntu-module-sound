@@ -14,6 +14,7 @@
 #include <QMap>
 #include <QVariant>
 #include <QUrl>
+#include <QFileInfo>
 #include <QtMultimedia/QSoundEffect>
 
 #include <QDebug>
