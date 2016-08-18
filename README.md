@@ -14,7 +14,7 @@ npm install https://github.com/justincan/ubuntu-module-sound --save
 ## Usage
 
 ```js
-import { playSound }  from 'ubuntu-sound';
+import { playSound }  from 'ubuntu-module-sound';
 
 function moo() {
   playSound("file:///usr/lib/libreoffice/share/gallery/sounds/cow.wav").then(() => {
